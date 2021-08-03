@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Khula&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg, #29323C 0%, #485563 100%);
+    font-family: 'Khula', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    transition: margin 0.5s ease-out;
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.board {
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*position: relative;*/
+    width: 500px;
+    height: 500px;
+    background: linear-gradient( 118.38deg, #545a61 -4.6%, #818d9a 200.44%);
+    box-shadow: -8px -8px 20px #2a333d, 10px 7px 20px #475462;
+    border-radius: 30px;
+    /*overflow: hidden;*/
+}
+.text-input{
+    margin: 50px 0;
+    padding: 12px 15px;
+    background-color: rgba(247, 247, 247, 0.58);
+    font-family: inherit;
+    border: none;
+    border-radius: 2px;
+}
+
+/*input placeholder{*/
+/*    color: black;*/
+/*}*/
+
+.add-btn{
+    padding: 12px;
+    outline: none;
+    background: #ffe6a7;
+    font-family: inherit;
+    border: none;
+    font-size: 0.9em;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.del-all-btn{
+    padding: 12px;
+    outline: none;
+    background: #ffe6a7;
+    font-family: inherit;
+    border: none;
+    font-size: 0.9em;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.del-btn{
+    padding: 5px;
+    outline: none;
+    background: #ffe6a7;
+    font-family: inherit;
+    border: none;
+    font-size: 0.9em;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.list li:not(:first-child){
+margin: 20px 0;
+}
+ol li{
+    width: 40%;
+}
+
+
